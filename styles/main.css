@@ -1,0 +1,62 @@
+body {
+  background: #666;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-size: 30pt;
+  font-weight: 600;
+  font-style:italic
+}
+
+p {
+  font-size: 10pt;
+  text-align: center;
+  font-weight: 400;
+}
+
+.footer{
+  height:24px;
+  width: 100%;
+  bottom: 40pt;
+  position: fixed;
+  text-align: justify;
+}
+
+.footer-contents{
+  height:24px;
+  width: 1000px;
+  text-align: center;
+  margin:auto;
+}
+
+.white-text{
+  color:white;
+}
+
+
+
+a {
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:focus {
+  color: white;
+}
+
+a:hover {
+  color: #F59;
+}
+
+a:active {
+  color: white;
+}
