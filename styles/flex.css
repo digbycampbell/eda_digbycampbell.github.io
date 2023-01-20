@@ -1,11 +1,33 @@
 .flex-container {
   display: flex;
   background-color: bisque;
+  align-content: middle;
+  flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .flex-container > div {
   background-color: black;
   margin: 10px;
-  padding: 20px;
+  padding: 30px;
   font-size: 30px;
+
+
+}
+
+.flex-container-small {
+  display: flex;
+  background-color: bisque;
+  align-content: middle;
+  flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-container-small > div {
+  background-color: black;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+
+
 }
