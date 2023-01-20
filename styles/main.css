@@ -10,15 +10,19 @@ body {
 /* Text sizes */
 
 h1 {
-  font-size: 30pt;
+  font-size: 50pt;
   font-weight: 600;
   font-style:italic
 }
 
-p {
-  font-size: 10pt;
+h4 {
+  font-size: 24pt;
   text-align: center;
   font-weight: 400;
+}
+
+p{
+  font-size: 14pt;
 }
 
 
@@ -26,6 +30,7 @@ p {
 
 a {
   color: white;
+  font-size: 14pt;
 }
 
 a:link {
@@ -73,6 +78,15 @@ a:active {
 .white-text{
   color:white;
 }
+
+
+
+
+input[type=radio] {
+  width: 20%;
+
+}
+
 
 
 
