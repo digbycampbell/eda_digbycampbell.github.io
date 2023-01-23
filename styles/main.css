@@ -4,15 +4,19 @@ body {
   background: #666;
   color: white;
   font-family: 'Quicksand', sans-serif;
+  margin: 0.5em 3em;
 }
-
 
 /* Text sizes */
 
 h1 {
   font-size: 3.5em;
   font-weight: 600;
-  font-style:italic
+  font-style: italic;
+}
+
+h3 {
+  color: #f59;
 }
 
 h4 {
@@ -21,9 +25,10 @@ h4 {
   font-weight: 400;
 }
 
-p{
+p {
   font-size: 1.2em;
 }
+
 
 
 /* Default links are ugly */
@@ -46,18 +51,19 @@ a:focus {
 }
 
 a:hover {
-  color: #F59;
+  color: #f59;
 }
 
 a:active {
   color: white;
 }
 
+
+
 /* Creating a footer with links (from stackoverflow) */
 
-
-.footer{
-  height:2.5em;
+.footer {
+  height: 2.5em;
   width: 100%;
   background-image: none;
   background-repeat: repeat;
@@ -68,31 +74,20 @@ a:active {
   left: 0pt;
 }
 
-.footer-contents{
-  height:2.5em;
+.footer-contents {
+  height: 2.5em;
   width: 1000px;
-  margin:auto;
+  margin: auto;
   text-align: center;
 }
 
-.white-text{
-  color:white;
+.white-text {
+  color: white;
 }
 
-
-
-
-input[type=radio] {
+input[type='radio'] {
   width: 20%;
-
 }
-
-
-
-
-
-
-
 
 
 
@@ -103,7 +98,7 @@ input[type=radio] {
   --penguin-skin: black;
   --penguin-belly: white;
   --penguin-beak: orange;
- }
+}
 
 .penguin {
   position: relative;
@@ -171,24 +166,24 @@ input[type=radio] {
   animation-duration: 3s;
   animation-name: wave;
   animation-iteration-count: infinite;
-  transform-origin:0% 0%;
+  transform-origin: 0% 0%;
   animation-timing-function: linear;
 }
 
 @keyframes wave {
-    10% {
-      transform: rotate(110deg);
-    }
-    20% {
-      transform: rotate(130deg);
-    }
-    30% {
-      transform: rotate(110deg);
-    }
-    40% {
-      transform: rotate(130deg);
-    }
+  10% {
+    transform: rotate(110deg);
   }
+  20% {
+    transform: rotate(130deg);
+  }
+  30% {
+    transform: rotate(110deg);
+  }
+  40% {
+    transform: rotate(130deg);
+  }
+}
 
 .left-hand {
   top: 0%;
@@ -243,7 +238,7 @@ input[type=radio] {
 
 .sparkle {
   top: 25%;
-  left:-23%;
+  left: -23%;
   background: white;
   width: 150%;
   height: 100%;
@@ -285,7 +280,6 @@ input[type=radio] {
   height: 10%;
   border-radius: 50%;
 }
-
 
 .penguin * {
   position: absolute;
