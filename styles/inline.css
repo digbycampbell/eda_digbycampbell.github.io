@@ -1,0 +1,12 @@
+.inline-block {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    outline: 3px solid red;
+
+}
+
+.inline {
+    display: inline;
+
+}

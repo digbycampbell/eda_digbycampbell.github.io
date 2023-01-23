@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Inline Blocks</title>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/inline.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <h1>DJC</h1>
+  <h3>inline/blocks</h3>
+  <body>
+    <p>
+      In CSS, the display property is used to specify the layout of an element.
+      Two common values for the display property are "inline" and
+      "inline-block".
+    </p>
+    <h4>Inline</h4>
+    <p class="inline">
+      "Inline" elements are placed inline with the text, and allow text to flow
+      around them. These elements do not have a fixed width and height, and only
+      take up as much width as necessary. They will not create a new line after
+      the element. This paragraph is an example of using an inline element,
+      watch what happens when I put an &lt;img&gt; element directly after this
+    </p>
+    <img src="../images/cat-lol.jpeg" alt="cat lol" height="300" width="auto" />
+
+    <h4>Inline-block</h4>
+    <p class="inline-block">
+      "Inline-block" elements, on the other hand, are similar to inline elements
+      but they can have a fixed width and height. These elements also create a
+      new line after the element, unlike inline elements. Examples of
+      inline-block elements include the &lt;div&gt; and &lt;img&gt; tags. This
+      is some text written inside a inline-block element, watch the behaviour of
+      the image following this element.
+    </p>
+    <img src="../images/cat-lol.jpeg" alt="cat lol" height="300" width="auto" />
+    <p>
+      As you can see, this effect is potentially much more usable and readable
+      on the page. As mentioned before, html conveniently builds these features
+      into some elements so we don't have to specify this parameter ourselves.
+    </p>
+    <span>using a &lt;span&gt; before an image</span
+    ><img
+      src="../images/cat-lol.jpeg"
+      alt="cat lol"
+      height="300"
+      width="auto"
+    />
+    <br>    <br>
+    <div>versus using a &lt;div&gt; before an image</div>
+    <img src="../images/cat-lol.jpeg" alt="cat lol" height="300" width="auto" />
+  </body>
+
+  <div class="footer">
+    <div class="footer-contents">
+      <a href="https://digbycampbell.github.io" style="padding: 10px">home</a
+      ><a
+        href="https://digbycampbell.github.io/blog/flexbox.html"
+        style="padding: 10px"
+        >flex</a
+      >
+      <a
+        href="https://digbycampbell.github.io/blog/learning-plan.html"
+        style="padding: 10px"
+        >learning</a
+      >
+      <a
+        href="https://digbycampbell.github.io/blog/inline-blocks.html"
+        style="padding: 10px"
+        >inline/blocks</a
+      >
+    </div>
+  </div>
+</html>
