@@ -1,33 +1,27 @@
-.flex-container {
+.even-columns {
   display: flex;
   background-color: bisque;
-  align-content: middle;
-  flex-direction: row;
-    flex-wrap: wrap;
 }
 
-.flex-container > div {
+.even-columns > * {
   background-color: black;
+  text-align: center;
+  flex-basis: 100%;
   margin: 20px;
-  padding: 30px;
-  font-size: 2.5em;
-
-
+  font-size: 2em;
 }
 
-.flex-container-small {
+.grid-ish {
   display: flex;
   background-color: bisque;
-  align-content: middle;
-  flex-direction: row;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-.flex-container-small > div {
+.grid-ish > * {
   background-color: black;
-  margin: 20px;
-  padding: 15px;
-  font-size: 1em;
-
+  margin: 4px;
+  flex: 1 1 10em;
+  padding: 2px;
+}
 
 }
