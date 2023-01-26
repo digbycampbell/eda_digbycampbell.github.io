@@ -1,0 +1,40 @@
+@media only screen and (min-width: 600px) {
+  #logo {
+    font-size: 7em;
+  }
+
+  h1{
+    font-size: 4em;
+  }
+  h2{
+    font-size: 3em;
+  }
+  h3{
+    font-size: 3.34em;
+  }
+  h4{
+    font-size: 2em;
+  }
+  h5{
+    font-size: 1.66em;
+  }
+  h6{
+    font-size: 1.34em;
+  }
+
+  p {
+    font-size: 1.8em;
+  }
+
+  .even-columns > * {
+    font-size: 4em;
+  }
+
+  p {
+    font-size: 1.8em;
+  }
+
+  footer {
+    font-size: 2em;
+  }
+}
