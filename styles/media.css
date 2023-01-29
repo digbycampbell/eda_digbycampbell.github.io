@@ -1,34 +1,67 @@
 #logo {
-  font-size: 5em;
+  font-size: 7.5vh;
 }
 
+
 h1 {
-  font-size: 3em;
+  font-size: 6vh;
 }
+
 h2 {
-  font-size: 2.5em;
+  font-size: 5vh;
 }
+
 h3 {
-  font-size: 2.2m;
+  font-size: 4vh;
 }
+
 h4 {
-  font-size: 1.6em;
+  font-size: 3.5vh;
 }
+
 h5 {
-  font-size: 1.3em;
+  font-size: 3vh;
 }
+
 h6 {
-  font-size: 1.15em;
+  font-size: 2.5vh;
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 2vh;
 }
 
-.even-columns > * {
-  font-size: 3em;
-}
+@media (max-width: 767px) {
 
-footer {
-  font-size: 1.6em;
+  #logo {
+    font-size: 40px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+  }
 }
