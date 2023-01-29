@@ -7,7 +7,9 @@
   background-color: black;
   text-align: center;
   flex-basis: 100%;
-  margin: 4em;
+  margin: 2em;
+  color: #FFFAF5;
+  padding: 1em;
 }
 
 .grid-ish {
@@ -18,7 +20,8 @@
 
 .grid-ish > * {
   background-color: black;
-  margin: 4px;
+  margin: 1em;
   flex: 1 1 8rem;
-  padding: 0.2em;
+  padding: 0.4em;
+  color: #FFFAF5;
 }

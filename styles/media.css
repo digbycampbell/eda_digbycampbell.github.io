@@ -1,67 +1,66 @@
 #logo {
-  font-size: 7.5vh;
-}
-
-
-h1 {
   font-size: 6vh;
 }
 
-h2 {
-  font-size: 5vh;
-}
-
-h3 {
+h1 {
   font-size: 4vh;
 }
 
-h4 {
+h2 {
   font-size: 3.5vh;
 }
 
-h5 {
+h3 {
   font-size: 3vh;
 }
 
-h6 {
+h4 {
   font-size: 2.5vh;
 }
 
-p {
+h5 {
+  font-size: 2.25vh;
+}
+
+h6 {
   font-size: 2vh;
+}
+
+p {
+  font-size: 1.75vh;
 }
 
 @media (max-width: 767px) {
 
   #logo {
-    font-size: 40px;
-  }
+    font-size: 32px;
+  }  
 
   h1 {
-    font-size: 36px;
+    font-size: 28px;
   }
 
   h2 {
-    font-size: 30px;
-  }
-
-  h3 {
     font-size: 24px;
   }
 
-  h4 {
-    font-size: 18px;
+  h3 {
+    font-size: 20px;
   }
 
-  h5 {
+  h4 {
     font-size: 16px;
   }
 
-  h6 {
+  h5 {
     font-size: 14px;
   }
 
+  h6 {
+    font-size: 12px;
+  }
+
   p {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
