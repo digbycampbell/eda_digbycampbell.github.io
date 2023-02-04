@@ -29,11 +29,11 @@ function displayProducts() {
       }
 
       para.textContent = productName + ': ' + productStock
-      butt.textContent = 'Restock ' + productName
+      // butt.textContent = 'Restock ' + productName
 
       const container = document.getElementById('menu')
       container.appendChild(para)
-      container.appendChild(butt)
+      // container.appendChild(butt)
 
       if (products[i].order > 0) {
          const para = document.createElement('p')
@@ -189,7 +189,7 @@ function restockItem() {
 }
 
 // OK This didn't work
-document.getElementById('restockButt0').onclick = restockItem
+// document.getElementById('restockButt0').onclick = restockItem
 
 // --       UTIL       -- //
 
