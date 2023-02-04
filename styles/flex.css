@@ -10,6 +10,9 @@
   margin: 2em;
   color: #FFFAF5;
   padding: 1em;
+  min-width: 0;
+  font-size: 1.5vw;
+  flex-wrap: wrap;
 }
 
 .grid-ish {
