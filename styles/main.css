@@ -31,11 +31,8 @@ body {
 
 a {
   font-style: normal;
-}
-
-a:hover {
-  color: #f59;
-  font-style: normal;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
 a:link,
@@ -43,5 +40,12 @@ a:visited,
 a:focus,
 a:active {
   color: #f59;
+  transition: all 0.3s ease 0s;
+
 }
 
+a:hover {
+   color: #000;
+   font-style: normal;
+   cursor: pointer;
+ }
